@@ -9,16 +9,25 @@ body {
     height: 150px;
 }
 
-/*#REVIEW {*/
-    /*background-color: #FF9641;*/
-/*}*/
+.ITEM {
+    border-radius: 50%;
+}
 
-/*#CODE {*/
-    /*background-color: #000000;*/
-/*}*/
-/*#BLOG {*/
-    /*background-color: #449d44;*/
-/*}*/
-/*#SNS {*/
-    /*background-color: #2aabd2;*/
-/*}*/
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#REVIEW {
+    background-color: #ff0000;
+}
+
+#CODE {
+    background-color: #ffff00;
+}
+#BLOG {
+    background-color: #3fff38;
+}
+#SNS {
+    background-color: #2aabd2;
+}
