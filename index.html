@@ -7,9 +7,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>HowmuchPage</title>
 
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!-- Bootstrap -->
+    <script src="js/bootstrap.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="js/bootstrap.js">
 
     <!-- howmuch -->
     <link href="css/howmuch-style.css" rel="stylesheet">
@@ -22,10 +25,20 @@
 <div class="container">
     <div class="row">
     <div class="col-md-3 text-center ITEM" id="REVIEW">
-        <a href="https://bookmeter.com/users/761040"><img src="img/icon/review.png" class="item-img"></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="img/icon/review.png" class="item-img"></a>
+        <ul class="dropdown-menu">
+            <li><a href="https://bookmeter.com/users/761040">Bookmater</a></li>
+            <li><a href="https://www.anikore.jp/users/mypage/">あにこれ</a></li>
+            <li><a href="https://www.mangare.net/mypage">マンガーレ</a></li>
+            <li><a href="https://filmarks.com/users/howmuch0515">Filmarks</a></li>
+        </ul>
     </div>
     <div class="col-md-3 text-center ITEM" id="BLOG">
-        <a href="http://howmuch.hatenadiary.com/"><img src="img/icon/blog.png" class="item-img"></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="img/icon/blog.png" class="item-img"></a>
+        <ul class="dropdown-menu">
+            <li><a href="http://howmuch.hatenadiary.com/">Hatena</a></li>
+            <li><a href="http://qiita.com/howmuch">Qiita</a></li>
+        </ul>
     </div>
     <div class="col-md-3 text-center ITEM" id="CODE">
         <a href="https://github.com/howmuch515"><img src="img/icon/code.png" class="item-img"></a>
