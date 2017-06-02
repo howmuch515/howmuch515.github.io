@@ -4,6 +4,10 @@ body {
 .container {
     margin-top: 100px;
 }
+
+.jumbotron {
+    background-image: url(../img/background/sky.jpg);
+}
 .item-img {
     width: 150px;
     height: 150px;
@@ -11,11 +15,6 @@ body {
 
 .ITEM {
     border-radius: 50%;
-}
-
-.row-eq-height {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #REVIEW {
