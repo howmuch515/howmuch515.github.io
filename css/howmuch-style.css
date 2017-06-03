@@ -13,22 +13,31 @@ body {
 .item-img {
     width: 150px;
     height: 150px;
+    border-radius: 25%;
 }
 
-.ITEM {
-    border-radius: 50%;
-}
-
-#REVIEW {
+#REVIEW .item-img {
     background-color: #ff0000;
 }
 
-#CODE {
-    background-color: #ffff00;
+#BLOG .item-img {
+    background-color: #00ff00;
 }
-#BLOG {
-    background-color: #3fff38;
+
+#CODE .item-img {
+    background-color: #0000ff;
 }
-#SNS {
-    background-color: #2aabd2;
-}
+
+/*#REVIEW {*/
+/*background-color: #ff0000;*/
+/*}*/
+
+/*#CODE {*/
+/*background-color: #ffff00;*/
+/*}*/
+/*#BLOG {*/
+/*background-color: #3fff38;*/
+/*}*/
+/*#SNS {*/
+/*background-color: #2aabd2;*/
+/*}*/
