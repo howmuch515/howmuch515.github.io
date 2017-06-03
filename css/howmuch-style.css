@@ -7,6 +7,8 @@ body {
 
 .jumbotron {
     background-image: url(../img/background/sky.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .item-img {
     width: 150px;
